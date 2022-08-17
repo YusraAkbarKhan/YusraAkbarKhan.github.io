@@ -12,16 +12,42 @@
 </head>
 
 <body>
-
     <div class="container-fluid">
         <div class="analyze-track">
             <img src="./gallery/wavrunr-black.png" alt="logo">
-            <a href="./form.html">
-                <button type="button" class="btn btn-dark">Analyze Track</button>
-            </a>
+            <form action="">
+                <!-- Choose file -->
+                <label for="upload_file">Upload you track</label>
+                <input type="file" id="upload_file" placeholder="Choose File">
+
+                <!-- Choose file -->
+                <label for="upload_file">Select your track's genre</label>
+                <select name="genre" id="genre">
+                    <option value="1">Genre...</option>
+                    <option value="1">opt 1</option>
+                    <option value="1">opt 1</option>
+                    <option value="1">opt 1</option>
+                </select>
+
+                <!-- Choose file -->
+                <label for="account">Input your spotify account</label>
+                <input type="text" id="account" placeholder="account">
+
+                <!-- Choose file -->
+                <label for="link">Input reference track link</label>
+                <input type="url" id="link" placeholder="link">
+
+                <!-- Choose file -->
+                <label for="link2">Input reference track link2</label>
+                <input type="url" id="link2" placeholder="link2">
+
+                <!-- Submit Button -->
+                <a href="">
+                    <input type="submit" id="submit" value="Get Result">
+                </a>
+            </form>
         </div>
     </div>
-
 
 
     <!-- Script -->

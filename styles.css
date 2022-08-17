@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black-color: #212529;
+    --background: #fff;
+}
+
+body {
+    overflow-y: auto !important;
+    padding: 20px 0;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    max-height: 100vh !important;
+}
+
+.analyze-track {
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 375px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+.analyze-track img {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 16px !important;
+    margin: 20px auto;
+    width: 50%;
+}
+
+label {
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    font-size: 17px;
+    margin: 10px;
+}
+
+input,
+select {
+    border-radius: 16px !important;
+    color: #fff;
+    background-color: var(--black-color);
+    border-color: var(--black-color);
+    padding: 10px 6px;
+}
+
+select option {
+    width: 100%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none !important;
+    width: 100%;
+}
+
+#submit {
+    margin: 20px auto 10px auto;
+    width: 60%;
+}
+
+
+/* FileName */
+
+.breakdown {
+    margin-top: 15px;
+    padding: 10px 0;
+    border-top: 1px dashed var(--black-color);
+}
+
+h2 {
+    font-weight: 800 !important;
+}
+
+.file {
+    padding: 10px;
+}
+
+.stream-count {
+    width: 100%;
+}
+
+.stream-count span,
+.breakdown span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stream {
+    width: 100%;
+    height: 15vh;
+    padding-bottom: 10px !important;
+    background-color: var(--black-color);
+}
+
+.dropdowns {
+    width: 100%;
+    border-bottom: 1px dashed var(--black-color);
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: calc(1.25rem - 1px) !important;
+    border-bottom-left-radius: calc(1.25rem - 1px) !important;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(1.25rem - 1px) !important;
+    border-top-right-radius: calc(1.25rem - 1px) !important;
+}
+
+.accordion-button,
+.accordion-item {
+    background-color: var(--black-color) !important;
+    border-radius: 18px !important;
+    color: white !important;
+}
+
+.accordion-item {
+    margin: 10px auto;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 50% !important;
+    margin: 6px auto !important;
+}
